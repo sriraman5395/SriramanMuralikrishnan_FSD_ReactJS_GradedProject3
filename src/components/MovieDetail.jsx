@@ -1,10 +1,9 @@
-// src/components/MovieDetail.js
 import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import moviesData from '/json/data.json';
- // Ensure you have styles for the component
+
 
 function MovieDetail() {
   const { movieId } = useParams();

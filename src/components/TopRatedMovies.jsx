@@ -1,4 +1,4 @@
-// src/components/TopRatedMovies.js
+
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import moviesData from '/json/data.json';

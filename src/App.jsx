@@ -21,7 +21,7 @@ function App() {
     setFavorites((prevFavorites) => {
       if (!prevFavorites.some(fav => fav.id === movie.id)) {
         setNotification({ show: true, message: `${movie.title} has been added to favorites!` });
-        setTimeout(() => setNotification({ show: false, message: '' }), 3000); // Hide notification after 3 seconds
+        setTimeout(() => setNotification({ show: false, message: '' }), 3000); 
         return [...prevFavorites, movie];
       }
       return prevFavorites;
